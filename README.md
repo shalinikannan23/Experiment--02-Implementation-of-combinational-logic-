@@ -69,6 +69,7 @@ the output. The small circle represents inversion. Y= A⊕B
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
 #Developed by: SHALINI.K
 #RegisterNumber: 212222240095
+```
 module EX2(A,B,C,D,F1);
 input A,B,C,D;
 output F1;
@@ -80,6 +81,7 @@ assign X4=(~A)&(B)&(C)&(D);
 assign X5=(B)&(~C)&(D);
 assign F1=X1|X2|X3|X4|X5;
 endmodule
+```
 */
 
 ## TRUTH TABLE:
